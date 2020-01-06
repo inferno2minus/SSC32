@@ -7,7 +7,7 @@
 
 #include "SSC32.h"
 
-SSC32::SSC32(SoftwareSerial *softwareSerial){
+SSC32::SSC32(SoftwareSerial *softwareSerial) {
   _softwareSerial = softwareSerial;
 }
 

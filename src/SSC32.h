@@ -13,7 +13,7 @@
 
 class SSC32 {
 public:
-  SSC32(SoftwareSerial *_softwareSerial);
+  SSC32(SoftwareSerial *softwareSerial);
   void begin(uint32_t band);
   void write(uint8_t command, uint16_t data);
   void free();
